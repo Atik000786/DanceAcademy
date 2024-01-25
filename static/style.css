@@ -1,0 +1,137 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+#navbar{
+   background-color:black;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+li{
+    list-style: none;
+    padding: 12px;
+    text-align: center;
+}
+a{
+    text-decoration:none;
+    color:white;
+    font-size: 20px;
+}
+div{
+   display:flex;
+   flex-direction:column;
+   font-size:30px;
+   justify-content:center;
+   text-align:center;
+   top:100px;
+
+}
+#one{
+    height:45vh;
+    background-image: url(Dance.jpg);
+    background-size:cover;
+    color:white;
+    
+}
+ .sponsor{
+    background-color:lightcoral;
+    color:white;
+    text-align: center;
+    justify-content: center;
+    height:18vh;
+    font-size:25px;
+    display:flex;
+    padding-bottom:10px;
+}
+section{
+      height:32vh;
+      text-align:center;
+      padding:12px;
+      background-color:lightgray ;
+}
+.card{
+    height:160px;
+    width:300px;
+    border:2px solid black;
+    display: inline-block;
+    border-radius:10px;
+    margin: 20px;
+    background-image:url(Dance1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.cardOne{
+    height:160px;
+    width:300px;
+    border:2px solid black; 
+    display: inline-block;
+    border-radius:10px;
+    margin: 20px;
+    background-image:url(Dance2.jpg);
+    background-size:300px;
+    background-repeat: no-repeat;
+}
+
+.cardTWO{
+    height:160px;
+    width: 300px;
+    border:2px solid black;
+    display: inline-block;
+    border-radius:10px;
+    margin: 20px;
+    background-image:url(Dance3.jpg);
+    background-size:300px;
+    background-repeat: no-repeat;
+}
+
+.card p{
+    font-size:20px;
+}
+.cardOne p{
+    font-size:20px;
+    color:azure
+}
+.cardTWO{
+    font-size:20px;
+}
+footer{
+    height:5vh;
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+.img1{
+    height:50px;
+    width:50px;
+    border:2px solid black;
+    margin:10px;
+    display:inline-block;
+    border-radius:30%;
+    background-image: url(google.png);
+    background-size: cover;
+}
+.img2{
+    height:50px;
+    width:50px;
+    border:2px solid black;
+    margin: 10px;
+    display:inline-block;
+    border-radius:30%;
+    background-image: url(TCS.NS.png);
+    background-size: cover;
+}
+.img3{
+    height:50px;
+    width:50px;
+    border:2px solid black;
+    margin:10px;
+    display:inline-block;
+    border-radius:30%;
+    background-image: url(wipro.png);
+    background-size: cover;
+}
+

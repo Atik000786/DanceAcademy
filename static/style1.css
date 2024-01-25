@@ -1,0 +1,54 @@
+#navbar{
+    background-color: black;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+li{
+    list-style: none;
+    padding: 12px;
+    text-align: center;
+}
+a{
+    text-decoration:none;
+    color:white;
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+    color:blue;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myInput{
+    display:block;
+    justify-content: center;
+    align-items: center;
+    width:500px;
+    height:30px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+.btn{
+    color:white;
+    background-color: green;
+    height:40px;
+    width:100px;
+    border-radius:10px;
+    margin:50px auto;
+}
+footer{
+    height:10vh;
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+
